@@ -4,3 +4,4 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 env/scripts/activate
 pip install django
 django-admin 
+django-admin startproject MyFirstProject 
