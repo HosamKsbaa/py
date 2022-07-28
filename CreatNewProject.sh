@@ -5,3 +5,5 @@ env/scripts/activate
 pip install django
 django-admin 
 django-admin startproject MyFirstProject 
+cd MyFirstProject
+python manage.py runserver
