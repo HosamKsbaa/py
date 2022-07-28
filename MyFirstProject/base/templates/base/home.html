@@ -7,6 +7,16 @@
 <div>
     <div>
 
+        {% for room in rooms %}
+        <div>
+            <h2>{{ room.name }}</h2>
+            <p>{{ room.description }}</p>
+            <p>{{ room.price }}</p>
+            <p>{{ room.created_at }}</p>
+            <p>{{ room.updated_at }}</p>
+        {end }
+        <div>
+
     </div>
 </div>
 {% endblock %}
