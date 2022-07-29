@@ -19,8 +19,13 @@ python  manage.py run server
 python  manage.py makemigrations
 python  manage.py migrate
 
-
+#
+MyFirstProject/env/scripts/activate
+cd MyFirstProject
+python manage.py runserver 127.0.0.1:8001
 
 #Hosam 55555
 
 python  manage.py createsuperuser
+
+
