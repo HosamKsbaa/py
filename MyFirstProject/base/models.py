@@ -9,9 +9,9 @@ class Room(models.Model):
     description = models.TextField(null= True,blank=True)
     # participants = 
     Updated_at = models.DateTimeField(auto_now=True)
-    created=Models.DateTimeField(auto_now_add=True)
-    # def __str__(self):
-    #     return self.name
+    created=models.DateTimeField(auto_now_add=True)
+    def __str__(self):
+        return str(self.name)
     #host = 
 # class Project(models.Model):
 #     title = models.CharField(max_length=200)

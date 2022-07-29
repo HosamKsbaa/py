@@ -14,3 +14,13 @@ python manage.py startapp base
 
 python  manage.py migrate 
 python  manage.py run server
+
+# apply  migrations
+python  manage.py makemigrations
+python  manage.py migrate
+
+
+
+#Hosam 55555
+
+python  manage.py createsuperuser
