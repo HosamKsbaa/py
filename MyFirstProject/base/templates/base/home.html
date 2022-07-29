@@ -2,7 +2,7 @@
 {% extends 'main.html' %}
 
 {%block content %}
-<h1>home a7aaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+<h1>Home Template</h1>
 
 <div>
     <div>
@@ -14,10 +14,11 @@
             <p>{{ room.price }}</p>
             <p>{{ room.created_at }}</p>
             <p>{{ room.updated_at }}</p>
-        {end }
-        <div>
 
+             <div>
+
+            {% endfor %}
     </div>
 </div>
-{% endblock %}
+{% endblock content %}
 
