@@ -6,5 +6,11 @@ pip install django
 django-admin 
 django-admin startproject MyFirstProject 
 cd MyFirstProject
+
+
 python manage.py runserver
 python manage.py startapp base
+
+
+python  manage.py migrate 
+python  manage.py run server
