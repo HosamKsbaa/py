@@ -14,7 +14,7 @@ class Topic(models.Model):
     #host =
 
 class Room(models.Model):
-    host =  topic =  models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
+    host =   models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     topic =  models.ForeignKey(Topic, on_delete=models.SET_NULL, null=True)
     name = models.CharField(max_length=255)
     description = models.TextField(null= True,blank=True)
@@ -24,6 +24,7 @@ class Room(models.Model):
     def __str__(self):
         return str(self.name)
     #host = 
+
 # class Project(models.Model):
 #     title = models.CharField(max_length=200)
 #     description = models.TextField(max_length=200)
